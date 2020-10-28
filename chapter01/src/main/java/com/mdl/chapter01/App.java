@@ -22,6 +22,8 @@ public class App {
     MessageService messageService = context.getBean(MessageService.class);
     // 这句将输出: hello world
     System.out.println(messageService.getMessage());
+
+    System.out.println("345678");
   }
 
 }
